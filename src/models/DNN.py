@@ -23,7 +23,7 @@ class DNN(nn.Module):
         # ..............................................................
 
         # .................... Training Config .........................
-        self.batch_size = 8192
+        self.batch_size = 4096
         self.training_epochs = 2
         self.learning_rate = 0.05
         self.cost_function = nn.BCELoss()
